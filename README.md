@@ -7,12 +7,10 @@
 2. Set up a virtual environment.
 
    Windows: "python -m venv env"
-   Mac: "python3 -m venv env"
 
 3. Activate the virtual environment.
 
    Windows: "env/Scripts/activate"
-   Mac: "source env/bin/activate"
 
 4. Install dependencies and libraries by running the 'requirements.txt' file using the command,
 
