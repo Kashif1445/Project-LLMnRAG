@@ -29,3 +29,52 @@ To clone this repository, follow the instructions below:
 
 ```bash
 git clone -b main-custom-deep-learning --single-branch https://github.com/Kashif1445/Project-LLMnRAG
+
+### Clone the RAG Branch
+
+```bash
+git clone -b RAG --single-branch https://github.com/Kashif1445/Project-LLMnRAG
+
+## Installation and Setup
+
+### Prerequisites
+
+Ensure you have the following software installed on your system:
+
+- Python 3.8+
+- pip (Python package installer)
+- Git
+
+### Setting Up the Environment
+
+1. **Clone the Repository**
+
+   Choose the branch you want to work with (either `main-custom-deep-learning` or `RAG`) and clone it as instructed below.
+
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd Project-LLMnRAG
+### Create a Virtual Environment
+
+It's recommended to create a virtual environment to manage your project dependencies.
+
+```bash
+python3 -m venv venv
+
+### Activate the Virtual Environment
+
+```bash
+.\venv\Scripts\activate
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+**##Test the code**
+1. Now if you are in RAG branch, then run the following command 
+```bash
+python main.py
+
+2. And if you are in Custom Deep Learning Models Branch, then run the **updated_deep_learning_testing.ipynb** file
+
